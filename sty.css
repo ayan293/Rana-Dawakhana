@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  width: 200px;
+  height: 100px;
+  padding-right: 500px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-family: "Reserv W00 Heavy";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #25AE84;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+nav ul li a:hover{
+  background-color: #25AE84;
+  color: white;
+}
